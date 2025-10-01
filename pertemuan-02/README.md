@@ -1,12 +1,13 @@
 <<<<<<< HEAD
 # pertemuan-02
 NIM : 2511500030<brgit>
-Nama : Monika Aldesia Plgaron
-=======
-# pertemuan-02
-
-NIM : 2511500030<br>
 Nama : Monika Aldesia Plaron
->>>>>>> 7096cd4da9ff37b9420c5e15f677d1800327b02c
 
-Hari ini, Rabu 01 Oktober.2025, saya mempelajari:
+Hari ini, Rabu 01 Oktober 2025, saya mempelajari:
+
+<ol>
+    <li>git add, git commit, git push origin main</li>
+    <li>browser akan melengkapi eleman atau tag yang hilang </li>
+    <li>struktur HTMLS yang lengkap dengan emmet</li>
+</ol>
+
