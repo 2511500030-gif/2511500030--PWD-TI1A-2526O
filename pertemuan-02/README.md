@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # pertemuan-02
 NIM : 2511500030<brgit>
 Nama : Monika Aldesia Plaron
