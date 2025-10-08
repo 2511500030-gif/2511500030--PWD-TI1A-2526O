@@ -1,46 +1,63 @@
 # pertemuan-03
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<header>
-    <h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </h1>
-</header>
-<main>
-    <section id="home">
-        <h2>Welcome to My Website!</h2>
-        <p>This is a sample paragraph in HTML.</p>
-    </section>
-    <section id="about">
-        <h2>Tentang saya</h2>
-        <p><strong>NIM:</strong> 2511500030 </p>
-        <p><strong>Nama lengkap:</strong> Monika Aldesia Plaron </p>
-        <p><strong>Tempat lahir:</strong> Pangkalpinang</p>
-        <p><strong>Tanggal lahir:</strong> 02 Oktober 2006</p>
-        <p><strong>Hobi:</strong> main handphone dan menggambar</p>
-        <p><strong>Pasangan:</strong> Belum ada</p>
-        <p><strong>Pekerjaan:</strong> Belum ada</p>
-        <p><strong>Nama orang tua:</strong> Frumensius dan Ertika</p>
-        <p><strong>Nama kakak:</strong> tidak ada</p>
-        <p><strong>Nama adek:</strong> tidak ada</p>
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: 2511500030mahasiswa.atmaluhur.ac.id</p>
-    </section>
+    <header>
+        <h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </h1>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to My Website!</h2>
+            <p>This is a sample paragraph in HTML.</p>
+        </section>
+        <section id="about">
+            <h2>Tentang saya</h2>
+            <p><strong>NIM:</strong> 2511500030 </p>
+            <p><strong>Nama lengkap:</strong> Monika Aldesia Plaron </p>
+            <p><strong>Tempat lahir:</strong> Pangkalpinang</p>
+            <p><strong>Tanggal lahir:</strong> 02 Oktober 2006</p>
+            <p><strong>Hobi:</strong> main handphone dan menggambar</p>
+            <p><strong>Pasangan:</strong> Belum ada</p>
+            <p><strong>Pekerjaan:</strong> Belum ada</p>
+            <p><strong>Nama orang tua:</strong> Frumensius dan Ertika</p>
+            <p><strong>Nama kakak:</strong> tidak ada</p>
+            <p><strong>Nama adek:</strong> tidak ada</p>
+        </section>
+        <section id="contact">
+            <h2>kontak kami</h2>
+            <form action="" methode="GET">
+                <label for="txtname">Nama: </label>
+                <input type="text" id="txtname" placeholder="Masukkan nama" required autocomplete="name">
+
+                <label for="txtEmail">Email: </label>
+                <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required autocapitalize="email">
+
+                <label for="txtPesan">Pesan: </label>
+                <textarea name="txtPesan" id="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+                <button type="submit">kirim</button>
+                <button type="reset">batal</button>
+
+            </form>
+</section>
 </main>
-<footer></footer>
+    <footer> 
+        <p>&copy; 2025 Monika Aldesia Plaron [2511500030]</p>
+    </footer>
 </body>
-</html>
+
+</html> 
