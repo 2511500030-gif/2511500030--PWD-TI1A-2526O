@@ -174,25 +174,22 @@
         <section id="contact">
             <h2>Kontak Kami</h2>
             <form action="" method="GET">
-                <label><span>="favColor">Warna favorit: </span>
-                    <input type="color" id="favColor"><br><br>
+                <label for="txtNama">
+                    <span>Nama:</span>
+                    <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required
+                        autocomplete="name">
                 </label>
 
-                <label><span>="txtname" class="Nama">Nama: </span>
-                    <input type="text" id="txtname" name="txtname" placeholder="Masukkan nama" required>
-                    autocomplete="name">
-
+                <label for="txtEmail">
+                    <span>Email:</span>
+                    <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required
+                        autocomplete="email">
                 </label>
 
-                <label><span>="txtEmail" class="Email">Email: </span>
-                    <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required>
-                    autocomplete="email">
-
-                </label>
-
-                <label><span>="txtPesan" class="pesan">Pesan: </span>
-                    <textarea name="txtPesan" id="txtPesan" rows="4" placeholder="Tulis pesan anda..." required> autocomplete="pesan">
-</textarea>
+                <label for="txtPesan">
+                    <span>Pesan:</span>
+                    <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..."
+                        required></textarea>
                 </label>
 
                 <div class="button">
