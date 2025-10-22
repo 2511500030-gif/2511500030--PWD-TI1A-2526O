@@ -9,3 +9,4 @@ Hari ini, Rabu 22 Oktober 2025, saya belajar:
     <li>ganti internal css ke eksternal css</li>
     <li>syling section#home</li>
     <li>syling footer</li>
+     <li>syling navigasi</li>
