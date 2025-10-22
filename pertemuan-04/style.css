@@ -149,6 +149,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   }
 
+  footer {
+    background: rgb(223, 42, 133);
+    color: #f7f6f7;
+    text-align: center;
+    padding: 10px;
+  }
+
   @media (max-width: 600px) {
 
     #about p,
