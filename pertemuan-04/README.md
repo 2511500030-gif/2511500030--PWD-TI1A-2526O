@@ -10,3 +10,5 @@ Hari ini, Rabu 22 Oktober 2025, saya belajar:
     <li>syling section#home</li>
     <li>syling footer</li>
      <li>syling navigasi</li>
+     <li>styling header mode mobile</li>
+     
