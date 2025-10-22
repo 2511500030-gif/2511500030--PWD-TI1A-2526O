@@ -117,7 +117,7 @@
       transform: translateY(-1px);
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
-    
+
     .menu-toggle {
       display: none;
       border: none;
@@ -128,6 +128,12 @@
 
 
     @media (max-width: 600px) {
+      .menu-toggle {
+        display: block;
+        position: absolute;
+        left: 16px;
+        top: 8px;
+      }
 
       #about p,
       #contact label {
@@ -224,7 +230,3 @@
 </body>
 
 </html>
-
-
-
-
