@@ -196,7 +196,7 @@ footer {
     margin: 8px 0 0;
   }
 
-  header li a {
+  header li a { 
     display: block;
     padding: 12px 14px;
     border: 1px solid rgba(223, 10, 181, 0.947);
