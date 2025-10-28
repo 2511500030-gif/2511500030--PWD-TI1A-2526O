@@ -147,7 +147,7 @@ header li a:active {
 #contact button[type="reset"] {
   background-color: white;
   color: hsl(0, 0%, 0%);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #contact button[type="submit"] {
