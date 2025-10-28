@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
             counter.style.width = 'auto';
         }
     }
-    
+
     setupCharCountLayout();
     window.addEventListener('resize', applyResponsiveLayout);
 });
