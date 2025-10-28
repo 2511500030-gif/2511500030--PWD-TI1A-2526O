@@ -145,13 +145,13 @@ header li a:active {
 }
 
 #contact button[type="reset"] {
-  background-color: rgb(194, 193, 193);
+  background-color: white;
   color: hsl(0, 0%, 0%);
   font-weight: 500;
 }
 
 #contact button[type="submit"] {
-  background-color: rgb(253, 206, 240);
+  background-color: white;
   color: hsl(0, 0%, 0%);
   font-weight: 600;
 }
