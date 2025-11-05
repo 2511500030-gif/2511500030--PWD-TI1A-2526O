@@ -186,7 +186,7 @@ echo "<p>nama saya Monika</p>";
             function display($nama, $sks, $hadir, $tugas, $uts, $uas, $akhir, $grade, $mutu, $bobot, $status)
             { // function ini buat nampilin data per matkul jadi ga usah nulis manual satu per satu yey :>
                 echo "<h3>$nama</h3>";
-                echo "<p><strong>Kredit:</strong> $sks</p>";
+                echo "<p><strong>Sks:</strong> $sks</p>";
                 echo "<p><strong>Kehadiran:</strong> $hadir</p>";
                 echo "<p><strong>Tugas:</strong> $tugas</p>";
                 echo "<p><strong>UTS:</strong> $uts</p>";
@@ -206,9 +206,9 @@ echo "<p>nama saya Monika</p>";
             display($namaMatkul5, $sksMatkul5, $nilaiHadir5, $nilaiTugas5, $nilaiUTS5, $nilaiUAS5, $nilaiAkhir5, $grade5, $mutu5, $bobot5, $status5);
             // nah display ini sebagai function yang ngegenerate semua data matkul yang udah disimpen didalam variabel-variabel sementara diatas jadi nama, sks, hadir, tugas, uts, uas, akhir, grade, mutu, bobot, status.
             // praktis singkat ga repot ga tebel jadi size filenya :v
-            echo "<h3>Total Weight: " . number_format($totalBobot, 2) . "</h3>";
-            echo "<h3>Total Credits: $totalSKS</h3>";
-            echo "<br><h2>Cumulative GPA: " . number_format($IPK, 2) . "</h2>"; // nah ini buat pentotalannya pake number_format biar format desimalnya rapi dan terkostumisasi
+            echo "<h3>Total Bobot: " . number_format($totalBobot, 2) . "</h3>";
+            echo "<h3>Total Sks: $totalSKS</h3>";
+            echo "<br><h2>IPK: " . number_format($IPK, 2) . "</h2>"; // nah ini buat pentotalannya pake number_format biar format desimalnya rapi dan terkostumisasi
             ?>
 </section>
         <section id="contact">
