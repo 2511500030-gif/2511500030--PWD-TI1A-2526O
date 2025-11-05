@@ -124,7 +124,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     }
 
     if (!isValid) {
-        e.preventDefault();
+        e.preventDefault()
     } else {
         alert("Terima kasih, " + nama.value + "!\nPesan Anda telah dikirim.");
         // e.target.reset();
