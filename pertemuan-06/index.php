@@ -28,8 +28,8 @@
         <section id="home">
             <h2>welcome to my website</h2>
             <?php
-echo "<p>halo dunia!</p>";
-echo "<p>nama saya Monika</p>";
+echo "<p>Halo dunia!</p>";
+echo "<p>Nama saya Monika</p>";
 ?>
             <p>Ini contoh paragraf html saya.</p>
         </section>
