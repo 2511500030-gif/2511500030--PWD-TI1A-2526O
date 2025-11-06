@@ -77,8 +77,8 @@ echo "<p>nama saya Monika</p>";
 
             $sksMatkul1 = 4;
             $sksMatkul2 = 4;
-            $sksMatkul3 = 3;
-            $sksMatkul4 = 5;
+            $sksMatkul3 = 4;
+            $sksMatkul4 = 4;
             $sksMatkul5 = 4;
 
             $nilaiHadir1 = 100;
@@ -195,6 +195,7 @@ echo "<p>nama saya Monika</p>";
                 echo "<p><strong>bobot:</strong> " . number_format($bobot, 2) . "</p>";
                 echo "<p><strong>Status:</strong> $status</p>";
                 echo "<br>"; 
+            }
 
            display($namaMatkul1, $sksMatkul1, $nilaiHadir1, $nilaiTugas1, $nilaiUTS1, $nilaiUAS1, $nilaiAkhir1, $grade1, $mutu1, $bobot1, $status1);
             display($namaMatkul2, $sksMatkul2, $nilaiHadir2, $nilaiTugas2, $nilaiUTS2, $nilaiUAS2, $nilaiAkhir2, $grade2, $mutu2, $bobot2, $status2);
