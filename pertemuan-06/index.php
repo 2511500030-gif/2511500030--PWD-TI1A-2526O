@@ -76,9 +76,9 @@ echo "<p>nama saya Monika</p>";
             $namaMatkul5 = "Dasar Basis Data";
 
             $sksMatkul1 = 4;
-            $sksMatkul2 = 4;
+            $sksMatkul2 = 3;
             $sksMatkul3 = 4;
-            $sksMatkul4 = 4;
+            $sksMatkul4 = 5;
             $sksMatkul5 = 4;
 
             $nilaiHadir1 = 100;
@@ -165,6 +165,7 @@ echo "<p>nama saya Monika</p>";
             $mutu4 = hitungMutu($grade4);
             $mutu5 = hitungMutu($grade5); 
 
+            $bobot1 = $mutu1 * $sksMatkul1;
             $bobot2 = $mutu2 * $sksMatkul2;
             $bobot3 = $mutu3 * $sksMatkul3;
             $bobot4 = $mutu4 * $sksMatkul4;
@@ -197,7 +198,7 @@ echo "<p>nama saya Monika</p>";
                 echo "<br>"; 
             }
 
-           display($namaMatkul1, $sksMatkul1, $nilaiHadir1, $nilaiTugas1, $nilaiUTS1, $nilaiUAS1, $nilaiAkhir1, $grade1, $mutu1, $bobot1, $status1);
+            display($namaMatkul1, $sksMatkul1, $nilaiHadir1, $nilaiTugas1, $nilaiUTS1, $nilaiUAS1, $nilaiAkhir1, $grade1, $mutu1, $bobot1, $status1);
             display($namaMatkul2, $sksMatkul2, $nilaiHadir2, $nilaiTugas2, $nilaiUTS2, $nilaiUAS2, $nilaiAkhir2, $grade2, $mutu2, $bobot2, $status2);
             display($namaMatkul3, $sksMatkul3, $nilaiHadir3, $nilaiTugas3, $nilaiUTS3, $nilaiUAS3, $nilaiAkhir3, $grade3, $mutu3, $bobot3, $status3);
             display($namaMatkul4, $sksMatkul4, $nilaiHadir4, $nilaiTugas4, $nilaiUTS4, $nilaiUAS4, $nilaiAkhir4, $grade4, $mutu4, $bobot4, $status4);
