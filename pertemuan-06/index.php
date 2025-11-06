@@ -75,11 +75,11 @@ echo "<p>nama saya Monika</p>";
             $namaMatkul4 = "Aplikasi Perkantoran";
             $namaMatkul5 = "Dasar Basis Data";
 
-            $sksMatkul1 = 3;
-            $sksMatkul2 = 3;
+            $sksMatkul1 = 4;
+            $sksMatkul2 = 4;
             $sksMatkul3 = 3;
-            $sksMatkul4 = 3;
-            $sksMatkul5 = 3;
+            $sksMatkul4 = 5;
+            $sksMatkul5 = 4;
 
             $nilaiHadir1 = 100;
             $nilaiTugas1 = 95;
