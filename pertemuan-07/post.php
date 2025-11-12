@@ -10,7 +10,11 @@ if (isset($_SESSION["email"])):
   $sesemail = $_SESSION["email"];
 endif;
 
-$sespesan = $_SESSION["pesan"];
+$sespesan = "";
+if (isset($_SESSION["pesan"])):
+  $sespesan = $_SESSION["pesan"];
+endif;
+
 ?> 
 
 <!DOCTYPE html>
@@ -78,7 +82,7 @@ $sespesan = $_SESSION["pesan"];
 
     <section id="contact">
       <h2>Kontak Kami</h2>
-      <form action="get_proses.php" method="GET">
+      <form action="post_proses.php" method="POST">
 
         <label for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
@@ -97,7 +101,7 @@ $sespesan = $_SESSION["pesan"];
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-     <?php if (empty($sesname)): ?>
+     <?php if(!empty($sesname)): ?>
        <p>Terimakasih sudah menghubungi kami:
         <label>Nama: <strong><?php echo $sesname; ?></strong></label>
         <label>Email: <strong><?php echo $sesemail; ?></strong></label>
@@ -105,7 +109,7 @@ $sespesan = $_SESSION["pesan"];
       </p>
       <?php endif; ?>
 
-      
+
     </section>
   </main>
 

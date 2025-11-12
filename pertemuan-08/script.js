@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
             counter.style.width = 'auto';
         }
     }
+
     setupCharCountLayout();
     window.addEventListener('resize', applyResponsiveLayout);
 });
@@ -95,8 +96,10 @@ document.querySelector("form").addEventListener("submit", function (e) {
     const pesan = document.getElementById("txtPesan");
     e.preventDefault();
     let isValid = true;
+
     document.querySelectorAll(".error-msg").forEach(el => el.remove());
     [nama, email, pesan].forEach(el => el.style.border = "");
+
     if (nama.value.trim().length < 3) {
         showError(nama, "Nama minimal 3 huruf dan tidak boleh kosong.");
         isValid = false;
@@ -111,14 +114,20 @@ document.querySelector("form").addEventListener("submit", function (e) {
         showError(email, "Format email tidak valid. Contoh: nama@mail.com");
         isValid = false;
     }
-    if (pesan.value.trim().length < 10) {
+
+    if (pesan.value.trim() === "") {
+        showError(pesan, "Pesan wajib diisi.");
+        isValid = false;
+    } else if (pesan.value.trim().length < 10) {
         showError(pesan, "Pesan minimal 10 karakter agar lebih jelas.");
         isValid = false;
     }
+
     if (!isValid) {
         e.preventDefault();
     } else {
         alert("Terima kasih, " + nama.value + "!\nPesan Anda telah dikirim.");
+        //e.target.reset();
         e.target.submit();
     }
 });

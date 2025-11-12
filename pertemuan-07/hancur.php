@@ -1,5 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header(header: "Location: get.php");
+header(header: "Location: post.php");
 ?>
