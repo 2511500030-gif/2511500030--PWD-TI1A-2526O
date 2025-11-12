@@ -11,4 +11,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menyalin file dari materi ke pertemuan-8</li>
   <li>membuat section profil pengunjung</li>
    <li>menambahkan profil pengunjung di style.css</li>
+   <li>menambahkan post di proses.php</li>
 </ol>
