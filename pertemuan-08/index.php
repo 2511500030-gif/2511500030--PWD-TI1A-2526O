@@ -53,7 +53,7 @@ endif;
     </section>
 
     <section id="pendaftaran profil pengunjung">
-       <h2>profil pengunjung</h2>
+       <h2>Profil pengunjung</h2>
       <form action="proses.php" method="POST">
 
         <label for="txtNim"><span>NIM:</span>
@@ -95,7 +95,7 @@ endif;
           <input type="NamaAdek" id="txtNamaAdek" name="txtNamaAdek" placeholder="Masukkan Nama Adekmu" required autocomplete="nama adek">
         </label>
         </label>
-        
+
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
