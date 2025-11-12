@@ -9,4 +9,5 @@ Kelompok: TI1A<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>menyalin file dari materi ke pertemuan-8</li>
+  <li>membuat section profil pengunjung</li>
 </ol>
