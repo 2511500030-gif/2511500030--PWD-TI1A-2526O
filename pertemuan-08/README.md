@@ -13,4 +13,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
    <li>menambahkan profil pengunjung di style.css</li>
    <li>menambahkan post di proses.php</li>
    <li>menambahkan session di index.php</li>
+   <li>menambahkan ses di proses</li>
 </ol>

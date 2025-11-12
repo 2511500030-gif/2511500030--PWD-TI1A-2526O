@@ -30,7 +30,6 @@ if (isset($_SESSION["seskakak"])): $seskakak = $_SESSION["seskakak"]; endif;
 
 $sesadik = "";
 if (isset($_SESSION["sesadik"])): $sesadik = $_SESSION["sesadik"]; endif;
-?>
 
 ?>
 
@@ -144,7 +143,7 @@ if (isset($_SESSION["sesadik"])): $sesadik = $_SESSION["sesadik"]; endif;
       <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
       <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
       <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-      <p><strong>Nama Adik:</strong> <?php echo $sespesan ?></p>
+      <p><strong>Nama Adik:</strong> </p>
     </section>
 
     <section id="contact">

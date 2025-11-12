@@ -10,6 +10,16 @@ header("location: index.php");
 ?>
 
 <?php
+$sesnim = $_POST["txtNim"];
+$sesnamalengkap = $_POST["txtNamaLengkap"];
+$sestempatlahir = $_POST["txtTempatLahir"];
+$sestanggallahir = $_POST["txtTanggalLahir"];
+$seshobi = $_POST["txtHobi"];
+$sespasangan = $_POST["txtPasangan"];
+$sespekerjaan = $_POST["txtPekerjaan"];
+$sesnamaorangtua = $_POST["txtNamaOrangTua"];
+$sesnamakakak = $_POST["txtNamaKakak"];
+$sesnamaadek = $_POST["txtNamaAdek"];
 $_SESSION["sesnim"] = $sesnim;
 $_SESSION["sesnamalengkap"] = $sesnamalengkap;
 $_SESSION["sestempatlahir"] = $sestempatlahir;
