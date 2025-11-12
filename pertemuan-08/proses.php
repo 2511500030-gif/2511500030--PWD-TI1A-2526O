@@ -8,17 +8,8 @@ $_SESSION["sesemail"] = $sesemail;
 $_SESSION["sespesan"] = $sespesan;
 header("location: index.php");
 ?>
+
 <?php
-$sesnama = $_POST["txtNIM"];
-$sesemail = $_POST["txtNamaLengkap"];
-$sespesan = $_POST["txtTempatLahir"];
-$sespesan = $_POST["txtTanggalLahir"];
-$sespesan = $_POST["txtHobi"];
-$sespesan = $_POST["txtPasangan"];
-$sespesan = $_POST["txtPekerjaan"];
-$sespesan = $_POST["txtNamaOrangTua"];
-$sespesan = $_POST["txtNamaKakak"];
-$sespesan = $_POST["txtNamaAdek"];
 $_SESSION["sesnim"] = $sesnim;
 $_SESSION["sesnamalengkap"] = $sesnamalengkap;
 $_SESSION["sestempatlahir"] = $sestempatlahir;

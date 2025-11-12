@@ -1,20 +1,37 @@
 <?php
 session_start();
 
+ $sesnim = "";
+if (isset($_SESSION["sesnim"])): $sesnim = $_SESSION["sesnim"]; endif;
+
 $sesnama = "";
-if (isset($_SESSION["sesnama"])):
-  $sesnama = $_SESSION["sesnama"];
-endif;
+if (isset($_SESSION["sesnama"])): $sesnama = $_SESSION["sesnama"]; endif;
 
-$sesemail = "";
-if (isset($_SESSION["sesemail"])):
-  $sesemail = $_SESSION["sesemail"];
-endif;
+$sestempat = "";
+if (isset($_SESSION["sestempat"])): $sestempat = $_SESSION["sestempat"]; endif;
 
-$sespesan = "";
-if (isset($_SESSION["sespesan"])):
-  $sespesan = $_SESSION["sespesan"];
-endif;
+$sestgllahir = "";
+if (isset($_SESSION["sestgllahir"])): $sestgllahir = $_SESSION["sestgllahir"]; endif;
+
+$seshobi = "";
+if (isset($_SESSION["seshobi"])): $seshobi = $_SESSION["seshobi"]; endif;
+
+$sespasangan = "";
+if (isset($_SESSION["sespasangan"])): $sespasangan = $_SESSION["sespasangan"]; endif;
+
+$sespekerjaan = "";
+if (isset($_SESSION["sespekerjaan"])): $sespekerjaan = $_SESSION["sespekerjaan"]; endif;
+
+$sesortu = "";
+if (isset($_SESSION["sesortu"])): $sesortu = $_SESSION["sesortu"]; endif;
+
+$seskakak = "";
+if (isset($_SESSION["seskakak"])): $seskakak = $_SESSION["seskakak"]; endif;
+
+$sesadik = "";
+if (isset($_SESSION["sesadik"])): $sesadik = $_SESSION["sesadik"]; endif;
+?>
+
 ?>
 
 <!DOCTYPE html>
