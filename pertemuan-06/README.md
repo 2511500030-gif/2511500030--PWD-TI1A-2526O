@@ -6,6 +6,7 @@ Nim: 2511500030
 belajar:
 <ol>
 <li>hello.php</li>
-<li>index.php</li>\
+<li>index.php</li>
 <li>copy section about dan rename jadi section ipk</li>
+<li>pindahkan section id ipk ke section yang diinginkan</li>
 <ol>
