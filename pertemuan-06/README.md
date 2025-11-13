@@ -14,4 +14,5 @@ belajar:
 <li>menambahkan kondisi status berdasarkan grade</li>
 <li>menambahkan perhitungan bobot 1 sampai 5</li>
 <li>menambahkan perhitungan total bobot, total SKS, dan IPK</li>
+<li>styling ipk di css</li>
 <ol>

@@ -68,7 +68,7 @@ echo "<p>Nama saya Monika</p>";
         </section>
 
 <section id="ipk">
-    <h2>Penilaian Akhir</h2>
+    <h2>Nilai saya</h2>
             <?php
             $namaMatkul1 = "Kalkulus";
             $namaMatkul2 = "Logika Informatika";
