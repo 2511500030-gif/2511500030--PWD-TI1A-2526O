@@ -13,4 +13,5 @@ belajar:
 <li>jika nilai hadir di bawah 70, tetapkan grade E pada semua mata kuliah</li>
 <li>menambahkan kondisi status berdasarkan grade</li>
 <li>menambahkan perhitungan bobot 1 sampai 5</li>
+<li>menambahkan perhitungan total bobot, total SKS, dan IPK</li>
 <ol>
