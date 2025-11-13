@@ -9,4 +9,5 @@ belajar:
 <li>index.php</li>
 <li>copy section about dan rename jadi section ipk</li>
 <li>pindahkan section id ipk ke section yang diinginkan</li>
+<li>buat skrip menghitung grade akhir 1 sampai 5</li>
 <ol>
