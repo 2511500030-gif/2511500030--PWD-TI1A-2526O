@@ -66,6 +66,7 @@ echo "<p>Nama saya Monika</p>";
             <p><strong>Nama Kakak:</strong><?= $Nama_Kakak ?> </p>
             <p><strong>Nama adek:</strong><?= $Nama_Adek ?> </p>
         </section>
+
 <section id="ipk">
     <h2>Penilaian Akhir</h2>
             <?php

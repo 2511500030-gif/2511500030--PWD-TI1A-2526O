@@ -14,4 +14,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
    <li>menambahkan post di proses.php</li>
    <li>menambahkan session di index.php</li>
    <li>menambahkan ses di proses</li>
+   <li>edit style.css</li>
 </ol>
