@@ -12,4 +12,5 @@ belajar:
 <li>buat skrip menghitung grade akhir 1 sampai 5</li>
 <li>jika nilai hadir di bawah 70, tetapkan grade E pada semua mata kuliah</li>
 <li>menambahkan kondisi status berdasarkan grade</li>
+<li>menambahkan perhitungan bobot 1 sampai 5</li>
 <ol>
