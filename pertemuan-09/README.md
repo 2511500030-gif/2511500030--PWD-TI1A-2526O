@@ -26,3 +26,5 @@ Hari ini, Rabu 26.Nov.2025, saya belajar:<br>
 <li>Memperingkas section biodata</li>
 <li>tambahkan file baru di pertemuan-09 dengan nama fungsi.php</li>
 <li>menambahkan fungsi format tanggal</li>
+<li>menambahkan fungsi tampilkan biodata</li>
+<li>
