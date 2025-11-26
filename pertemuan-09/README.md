@@ -24,3 +24,4 @@ Hari ini, Rabu 26.Nov.2025, saya belajar:<br>
 <li>ganti baris (19-67) dan tambah kode modif suffix ke baris (105-120)</li>
 <li>Memperingkas section biodata</li>
 <li>Memperingkas section biodata</li>
+<li>tambahkan file baru di pertemuan-09 dengan nama fungsi.php</li>
