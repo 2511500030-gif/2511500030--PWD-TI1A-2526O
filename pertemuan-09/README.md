@@ -27,4 +27,5 @@ Hari ini, Rabu 26.Nov.2025, saya belajar:<br>
 <li>tambahkan file baru di pertemuan-09 dengan nama fungsi.php</li>
 <li>menambahkan fungsi format tanggal</li>
 <li>menambahkan fungsi tampilkan biodata</li>
-<li>
+<li>hapus dan modif baris (123-129)</li>
+<li>menambahkan require_once</li>
