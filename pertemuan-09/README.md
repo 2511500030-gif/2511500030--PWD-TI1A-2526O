@@ -22,3 +22,4 @@ Hari ini, Rabu 26.Nov.2025, saya belajar:<br>
 <li>Modif sehingga baris kode (10-21) menjadi bentuk array associative</li>
 <li>ganti baris (23-32)</li>
 <li>ganti baris (19-67) dan tambah kode modif suffix ke baris (105-120)</li>
+<li>Memperingkas section biodata</li>
