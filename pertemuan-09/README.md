@@ -31,3 +31,4 @@ Hari ini, Rabu 26.Nov.2025, saya belajar:<br>
 <li>menambahkan require_once</li>
 <li>menambahkan array buat form contact di proses.php</li>
 <li>menambahkan session untuk contact</li>
+<li>modif session contact ke bentuk suffix</li>
