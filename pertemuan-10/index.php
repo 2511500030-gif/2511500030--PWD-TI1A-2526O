@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 require_once __DIR__ . '/fungsi.php';
 ?>
 
@@ -79,48 +78,37 @@ require_once __DIR__ . '/fungsi.php';
           <input type="text" id="txtNmKakak" name="txtNmKakak" placeholder="Masukkan Nama Kakak" required>
         </label>
 
-         <label for="txtNmAdik"><span>Nama Adik:</span>
+        <label for="txtNmAdik"><span>Nama Adik:</span>
           <input type="text" id="txtNmAdik" name="txtNmAdik" placeholder="Masukkan Nama Adik" required>
         </label>
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-
     </section>
 
     <?php
-$biodata = $_SESSION["biodata"] ?? [];
+    $biodata = $_SESSION["biodata"] ?? [];
 
-$fieldConfig = [
-    "nim"       => ["label" => "NIM:",              "suffix" => ""],
-    "nama"      => ["label" => "Nama Lengkap:",     "suffix" => "&#128526;"],
-    "tempat"    => ["label" => "Tempat Lahir:",     "suffix" => ""],
-    "tanggal"   => ["label" => "Tanggal Lahir:",    "suffix" => ""],
-    "hobi"      => ["label" => "Hobi:",             "suffix" => "&#127926;"],
-    "pasangan"  => ["label" => "Pasangan:",         "suffix" => "&hearts;"],
-    "pekerjaan" => ["label" => "Pekerjaan:",        "suffix" => "&copy; 2025"],
-    "ortu"      => ["label" => "Nama Orang Tua:",   "suffix" => ""],
-    "kakak"     => ["label" => "Nama Kakak:",       "suffix" => ""],
-    "adik"      => ["label" => "Nama Adik:",        "suffix" => ""],
-];
-?>
+    $fieldConfig = [
+      "nim" => ["label" => "NIM:", "suffix" => ""],
+      "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
+      "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
+      "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
+      "hobi" => ["label" => "Hobi:", "suffix" => " &#127926;"],
+      "pasangan" => ["label" => "Pasangan:", "suffix" => " &hearts;"],
+      "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
+      "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
+      "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
+      "adik" => ["label" => "Nama Adik:", "suffix" => ""],
+    ];
+    ?>
 
     <section id="about">
       <h2>Tentang Saya</h2>
       <?= tampilkanBiodata($fieldConfig, $biodata) ?>
     </section>
 
-    <?php
-    $contact = $_SESSION["contact"] ?? [];
-
-    $FieldConfig = [
-      "Nama" => ["label" => "Nama:", "suffix" => ""],
-      "Email" => ["label" => "Email:", "suffix" => ""],
-      "Pesan" => ["label" => "Pesan:", "suffix" => ""],
-    ];
-    ?>
-    
     <section id="contact">
       <h2>Kontak Kami</h2>
       <form action="proses.php" method="POST">
@@ -142,15 +130,20 @@ $fieldConfig = [
         <button type="reset">Batal</button>
       </form>
 
+      <?php
+      $contact = $_SESSION["contact"] ?? [];
 
-      <?php if (!empty($contact)): ?>
-        <br><hr>
-       <h2>Yang menghubungi kami:</h2>
-        <?= tampilkanBiodata($FieldConfig, $contact) ?>
-      <?php endif; ?>
+      $fieldContact = [
+        "nama" => ["label" => "Nama:", "suffix" => ""],
+        "email" => ["label" => "Email:", "suffix" => ""],
+        "pesan" => ["label" => "Pesan Anda:", "suffix" => ""]
+      ];
+      ?>
 
-
-
+      <br>
+      <hr>
+      <h2>Yang menghubungi kami</h2>
+      <?= tampilkanBiodata($fieldContact, $contact) ?>
     </section>
   </main>
 

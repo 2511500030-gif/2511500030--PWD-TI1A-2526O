@@ -24,3 +24,4 @@ $html .= "<p><strong>{$label}</strong> {$nilai}{$suffix}</p>";
 }
 return $html;
 }
+?>

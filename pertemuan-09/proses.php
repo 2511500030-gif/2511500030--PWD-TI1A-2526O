@@ -1,29 +1,29 @@
 <?php
-
-$arrBiodata = [
-"nim" => $_POST["txtNim"] ?? "",
-"nama" => $_POST["txtNmLengkap"]?? "",
-"tempat" => $_POST["txtT4Lhr"] ?? "",
-"tanggal" => $_POST["txtTglLhr"] ?? "",
-"hobi" => $_POST["txtHobi"] ?? "",
-"pasangan" => $_POST["txtPasangan"] ?? "",
-"pekerjaan" => $_POST["txtKerja"] ?? "",
-"ortu" => $_POST["txtNmOrtu"] ?? "",
-"kakak" => $_POST["txtNmKakak"] ?? "",
-"adik" => $_POST["txtNmAdik"] ?? ""
-];
+session_start();
 
 $arrcontact = [
-    "nama" => $_POST["txtNama"] ?? "",
-    "email" => $_POST["txtEmail"] ?? "",
-    "pesan" => $_POST["txtPesan"] ?? ""
+    "Nama" => $_POST["txtNama"] ?? "",
+    "Email" => $_POST["txtEmail"] ?? "",
+    "Pesan" => $_POST["txtPesan"] ?? "",
 ];
-
-$_SESSION["biodata"] = $arrBiodata;
-header("location: index.php#contact");
-header("location: index.php");
 
 $_SESSION["contact"] = $arrcontact;
 header("location: index.php#contact");
-header("location: index.php");
+
+$arrBiodata = [
+    "nim" => $_POST["txtNim"] ?? "",
+    "nama" => $_POST["txtNmLengkap"] ?? "",
+    "tempat" => $_POST["txtT4Lhr"] ?? "",
+    "tanggal" => $_POST["txtTglLhr"] ?? "",
+    "hobi" => $_POST["txtHobi"] ?? "",
+    "pasangan" => $_POST["txtPasangan"] ?? "",
+    "pekerjaan" => $_POST["txtKerja"] ?? "",
+    "ortu" => $_POST["txtNmOrtu"] ?? "",
+    "kakak" => $_POST["txtNmKakak"] ?? "",
+    "adik" => $_POST["txtNmAdik"] ?? ""
+];
+
+$_SESSION["biodata"] = $arrBiodata;
+header("location: index.php#about");
+exit();
 ?>
