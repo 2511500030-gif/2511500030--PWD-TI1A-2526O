@@ -6,4 +6,4 @@ Hari ini, Rabu 3.Des.2025, saya belajar:<br>
 <li>Mengekstrak file dari materi yang bapak kasih ke pertemuan-10</li>
 <li>Buat file baru dengan nama koneksi.php dan menambahkan mysqli</li>
 <li>Memasang PHPMyAdmin</li>
-<li>
+<li>Membuat database dengan nama db_pwd2025</li>
