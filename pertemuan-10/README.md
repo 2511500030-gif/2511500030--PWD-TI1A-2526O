@@ -8,5 +8,6 @@ Hari ini, Rabu 3.Des.2025, saya belajar:<br>
 <li>Memasang PHPMyAdmin</li>
 <li>Membuat database dengan nama db_pwd2025</li>
 <li>Membuat tabel tbl_tamu di dlm db_pwd2025</li>
-<li>Menambahkan folder baru di pertemuan-10 dengan nama read.php</li>
+<li>Menambahkan folder baru di pertemuan-10 dengan nama read.php dan menambahkan kode ke dalam read.php</li>
+<li>Berhasil menambahkan record utk tbl_tamu</li>
 <li>
