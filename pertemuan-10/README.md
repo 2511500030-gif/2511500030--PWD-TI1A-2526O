@@ -10,4 +10,4 @@ Hari ini, Rabu 3.Des.2025, saya belajar:<br>
 <li>Membuat tabel tbl_tamu di dlm db_pwd2025</li>
 <li>Menambahkan folder baru di pertemuan-10 dengan nama read.php dan menambahkan kode ke dalam read.php</li>
 <li>Berhasil menambahkan record utk tbl_tamu</li>
-<li>
+<li>Menduplikat file read.php jadi read_inc.php dan modif kodenya</li>
