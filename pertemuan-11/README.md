@@ -6,3 +6,4 @@ Hari ini, Rabu 10.Des.2025, saya belajar:<br>
 <li>menggunakan hasil latihan pada folder pertemuan-10 sebagai bahan latihan pertemuan-11</li>
 <li>update fungsi php</li>
 <li>menambahkan penangkap pesan sukses/gagal di index.php</li>
+<li>menampilkan flash message</li>

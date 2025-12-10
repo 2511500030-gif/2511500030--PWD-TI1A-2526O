@@ -119,20 +119,44 @@ require_once __DIR__ . '/fungsi.php';
 
     <section id="contact">
       <h2>Kontak Kami</h2>
+
+      <?php if (!empty($flash_sukses)) : ?>
+        <div style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px;">
+            <? = $flash_sukses; ?>
+        </div>
+      <?php endif; ?>
+
+      <?php if (!empty($flash_error)) : ?>
+        <div style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
+            <?= $flash_error; ?>
+        </div>
+      <?php endif; ?>
+      
       <form action="proses.php" method="POST">
 
-        <label for="txtNama"><span>Nama:</span>
-          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-        </label>
+    <label for="txtNama">
+        <span>Nama : </span>
+    </label>
+       <input type="text" id="txtNama" name="txtNama" required autocomplete="name"
+        value="<?= isset($old['nama']) ? htmlspecialchars($old['nama']) : '' ?>"
+        placeholder="Masukkan nama">
 
-        <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-        </label>
+    <label for="txtEmail"><span>Email:</span>
+    </label>
+       <input type="email" id="txtEmail" name="txtEmail" required autocomplete="email"
+        value="<?= isset($old['email']) ? htmlspecialchars($old['email']) : '' ?>"
+        placeholder="Masukkan email">
 
-        <label for="txtPesan"><span>Pesan Anda:</span>
-          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
-          <small id="charCount">0/200 karakter</small>
-        </label>
+    <label for="txtPesan">
+        <span>Pesan Anda : </span>
+    </label>
+    <textarea id="txtPesan" name="txtPesan" required maxlength="200"
+        placeholder="Tulis pesan anda..."
+    ><?= isset($old['pesan']) ? htmlspecialchars($old['pesan']) : '' ?></textarea>
+<small id="charCount">0/200 karakter</small>
+  </label>
+
+</form>
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
