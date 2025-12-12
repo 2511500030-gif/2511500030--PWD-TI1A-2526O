@@ -7,3 +7,4 @@ Hari ini, Rabu 10.Des.2025, saya belajar:<br>
 <li>update fungsi php</li>
 <li>menambahkan penangkap pesan sukses/gagal di index.php</li>
 <li>menampilkan flash message</li>
+<li>rewrite proses.php</li>
